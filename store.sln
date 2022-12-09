@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{E6EA891E-351E-452F-BEBC-00A37258757B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,7 +16,27 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Release|x64.Build.0 = Release|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD78AB63-B7F1-47C8-8F7D-A7AD5AA266F0} = {E6EA891E-351E-452F-BEBC-00A37258757B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D5ABB3-C0EE-4B71-A698-2F77F4E06A31}
 	EndGlobalSection
 EndGlobal
