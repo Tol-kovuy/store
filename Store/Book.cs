@@ -11,9 +11,9 @@ namespace Store
         public int Id { get; }
         public string Title { get; }
 
-        public Book(string title)
+        public Book(int id, string title)
         {
-            Id = Id;
+            Id = id;
             Title = title;
         }
     }
