@@ -15,7 +15,7 @@ namespace Store.Memory
             new Book(3, "C Programming Language"),
         };
 
-        Book[] IBookRepository.GetAllByTitle(string titlePart)
+        public Book[] GetAllByTitle(string titlePart)
         {
             return books.Where(book => book.Title.Contains(titlePart))
                         .ToArray();
